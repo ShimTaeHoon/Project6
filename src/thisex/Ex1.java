@@ -8,6 +8,7 @@ public class Ex1 {
 		bDay.setYear(2000); // 연도 입력
 		System.out.println(bDay);
 		bDay.printThis();
+		bDay.getYear();
 		
 	}
 
@@ -24,5 +25,9 @@ class Birthday {
 	// this의 값을 출력하는 메소드
 	public void printThis() {
 		System.out.println(this);
+	}
+	
+	public void getYear() {
+		System.out.println(year);
 	}
 }

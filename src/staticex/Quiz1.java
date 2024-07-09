@@ -15,7 +15,7 @@ public class Quiz1 {
 
 }
 
-class Card{
+class Card {
 	static int count = 100;
 	int cardNo;
 
@@ -23,5 +23,5 @@ class Card{
 		count++;
 		cardNo = count;
 	}
-	
+
 }
