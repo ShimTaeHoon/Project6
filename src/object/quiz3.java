@@ -10,7 +10,7 @@ public class quiz3 {
 		Cafe cafe = new Cafe("별다방");
 		
 		customer.buyAmericano(cafe);
-		customer.buyCaffeelatte(cafe);
+		customer2.buyCaffeelatte(cafe);
 		
 		customer.showInfo();
 		customer2.showInfo();
