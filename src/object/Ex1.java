@@ -6,13 +6,14 @@ public class Ex1 {
 
 		// 만원을 가진 둘리라는 학생을 만든다
 		Student student = new Student("둘리", 10000);
+		Student student2 = new Student(null, 0);
 		// 100번 버스를 만든다
-		Bus bus = new Bus(100);
+		Bus bus2 = new Bus(100);
 		//학생이 100번 버스에 탄다
-		student.takeBus(bus);
-		
+		student.takeBus(bus2);
+		System.out.println(bus2.busNumber);
 		student.showInfo();
-		bus.showInfo();
+		bus2.showInfo();
 	
 	}
 
